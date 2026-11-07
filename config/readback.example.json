@@ -1,0 +1,21 @@
+{
+  "facility_urn": "urn:adsk.dtt:YOUR_FACILITY_ID",
+  "connections": {
+    "ahu-01": {
+      "connection_key": "COPY_AHU_CONNECTION_KEY_FROM_DISCOVERY",
+      "parameters": {
+        "chilled_water_temperature": "z:COPY_CHILLED_WATER_ID",
+        "heat_pipe_leaving_temperature": "z:COPY_HEAT_PIPE_ID",
+        "outside_air_humidity": "z:COPY_OUTSIDE_HUMIDITY_ID"
+      }
+    },
+    "vav-3": {
+      "connection_key": "COPY_VAV_CONNECTION_KEY_FROM_DISCOVERY",
+      "parameters": {
+        "discharge_air_temperature": "z:COPY_DISCHARGE_AIR_ID",
+        "zone_humidity": "z:COPY_ZONE_HUMIDITY_ID",
+        "zone_temperature": "z:COPY_ZONE_TEMPERATURE_ID"
+      }
+    }
+  }
+}

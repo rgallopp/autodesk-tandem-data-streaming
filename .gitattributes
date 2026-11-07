@@ -1,0 +1,2 @@
+# Preserve exact generator bytes on Windows checkouts with core.autocrlf=true.
+data/demo_hvac.csv text eol=lf
